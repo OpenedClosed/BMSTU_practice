@@ -1,0 +1,7 @@
+number = input()
+answer = 0
+while (number != ''):
+    if number % 2 == 0:
+        answer += number
+    number = input()
+print(answer)
